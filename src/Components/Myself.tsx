@@ -1,7 +1,7 @@
 const Myself = () => {
     return (
       <>
-        <div>自己紹介</div>
+        <div>その他</div>
       </>
     )
   }

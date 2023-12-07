@@ -1,0 +1,41 @@
+.headerAll{
+    display: flex;
+    background-color: #cde594;
+    color: #fff;
+    height: 10vh;
+    width: 100%;
+    position: fixed;
+    font-size: 1.5em;
+
+    .headerLinks{
+        display: flex;
+        padding: auto;
+        left: 3%;
+        div{
+            margin-right: 20px;
+        }
+    }
+
+    .headerIcons{
+        display: flex;
+        padding: auto;
+        right: 3%;
+        div{
+            margin-left: 10px;
+        }
+    }
+
+    .headerIcons,
+    .headerLinks{
+        position: absolute;
+        bottom: 0px;
+        a{
+            color: #fff;
+            text-decoration: none;
+        }
+    }
+}
+
+@media screen and (max-width:480px){
+
+}

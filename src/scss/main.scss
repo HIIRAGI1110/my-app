@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Zen+Kaku+Gothic+New:wght@500&display=swap');
+
+main{
+    font-family: 'Zen Kaku Gothic New', sans-serif;
+}
+
+.mainContents{
+    color: #cde594;
+    padding-top: 10vh;
+}
+
+.infoText{
+    margin-left: 20px;
+    .infoContTitle{
+        font-size: 2em;
+    }
+}
